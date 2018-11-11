@@ -2,11 +2,12 @@
 
 QUALITY SERVICE - USER MANAGEMENT
 ---------------------------------
-
 DESCRIPTION
+
 Small Website UI for user's roles management. The technologies used are JQuery, JQuery mobile, JavaScript, PHP, HTML5 and CSS.
 
 FUNCTIONALITIES
+
 User Management app to handle about 200 users with these following roles:
 -	Administrator
 -	Lead investigator
@@ -16,6 +17,7 @@ User Management app to handle about 200 users with these following roles:
 -	Security Manager for one or more companies and for one or more offices for the selected companies.
 
 INCLUDES
+
 1.	A UI/UX and for the User Management module where an Administrator can update the user roles assigned to a user.
 2.	An UI prototype in HTML5.
 
@@ -34,6 +36,7 @@ TREE
 - test.php -> php file to show message popup.
 
 TECH
+
 HTML5, JavaScript, JQuery, PHP and CSS
 
 ASSUMPTIONS
