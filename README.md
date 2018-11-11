@@ -2,7 +2,6 @@
 
 QUALITY SERVICE - USER MANAGEMENT
 ---------------------------------
-
 DESCRIPTION
 Small Website UI for user's roles management. The technologies used are JQuery, JQuery mobile, JavaScript, PHP, HTML5 and CSS.
 
@@ -20,7 +19,6 @@ INCLUDES
 2.	An UI prototype in HTML5.
 
 TREE
-
 - json
 	|- test_roles.json -> file which contains all the setted roles.
 	|- test_single_user.json -> file which contains all the users registered in the system.
@@ -37,7 +35,6 @@ TECH
 HTML5, JavaScript, JQuery, PHP and CSS
 
 ASSUMPTIONS
-
 - To run and see the Web UI test properly you need an Apache server. In case you have one, just need to place this test in the 'htdocs' folder. Apache serve could be downloaded from the below links:
   
   * Windows - https://www.apachefriends.org/download.html
