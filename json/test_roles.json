@@ -1,0 +1,21 @@
+{
+"roles" :[
+	{
+		"id": "1",
+		"name": "RoleToEdit"
+	},
+	{
+		"id": "2",
+		"name":	"RoleToDel"
+	},
+	{
+		"id": "3",
+		"name": "RoleToSave"
+	},
+	{	
+		"id": "4",
+		"name":	"RoleToTest"
+	}
+]
+}
+

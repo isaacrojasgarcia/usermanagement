@@ -1,0 +1,47 @@
+<!-- 
+Page "edituserlist"
+-->
+
+<form>
+	<fieldset data-role="controlgroup" data-iconpos="right">
+		<legend>Choose Users:</legend>
+		<div id="usereditlist"></div>
+	</fieldset>
+	<fieldset>
+		<a id="editBtn" class="ui-btn" href="#" onclick="editBtnOnClick()" >Edit</a>
+			
+		<a class="ui-btn ui-btn-b" href="#" id="cancel" onclick="editMnCancell()">Cancel</a>		
+	</fieldset>
+</form>
+<div data-role="panel" id="rolesPanel" data-position="right" data-display="overlay" data-theme="a" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-closed">
+	<form>
+		<fieldset data-role="controlgroup" data-iconpos="right">
+			<legend>Choose roles:</legend>
+			<div id="rolelist"></div>
+		</fieldset>
+		<a class="ui-btn" href="#" id="choose" onclick="massUserAddRoles()">Ok</a>
+		<a class="ui-btn ui-btn-b" href="#" id="cancel" data-rel="close">Cancel</a>		
+	</form>
+</div>
+<div data-role="panel" id="groupsPanel" data-position="right" data-display="overlay" data-theme="a" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-closed">
+	<form>
+		<fieldset data-role="controlgroup" data-iconpos="right">
+			<legend>Choose Groups:</legend>
+			<div id="grouplistpan"></div>
+		</fieldset>
+		<a class="ui-btn" href="#" id="chooseGrp" onclick="massUserEditGroups()">Ok</a>
+		<a class="ui-btn ui-btn-b" href="#" data-rel="close">Cancel</a>		
+	</form>
+</div>
+<div data-role="popup" id="editmenu" data-theme="b" >
+	    		<ul data-role="listview" data-inset="true" style="min-width:210px;">
+			    	<li data-role="list-divider">Choose an action</li>
+			    	<li><a href="#" id="addRoleBtn" onclick="addRoleBtnClicked()">Update role</a></li>
+				</ul>
+			</div>
+<div data-role="popup" id="noUserAlert">
+	<p>You should choose users.</p>
+</div>
+<!-- 
+Page "edituserlist"
+-->

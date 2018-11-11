@@ -1,0 +1,13 @@
+{
+	"id": "1",
+	"name": "Ivan Ivanov",
+	"userRoles": [
+		"1",
+		"3",
+		"4"		
+	],
+	"userGroups": [
+		"2",
+		"3"	
+	]
+}

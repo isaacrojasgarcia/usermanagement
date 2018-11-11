@@ -1,0 +1,29 @@
+{
+	"groups" :[
+		{
+			"id": "1",
+			"name": "Administrator"
+		},
+		{
+			"id": "2",
+			"name":	"Lead Investigator"
+		},
+		{
+			"id": "3",
+			"name": "Regional Manager"
+		},
+		{	
+			"id": "4",
+			"name":	"Company Manager"
+		},
+		{	
+			"id": "5",
+			"name":	"Quality Manager"
+		},
+		{	
+			"id": "6",
+			"name":	"Security Manager"
+		}
+	]
+}
+
